@@ -9,6 +9,7 @@
     top: 0;
     z-index: 100;
     background-color: #fff;
+    border: 2px solid red;
 }
 .topBar div:nth-child(2){
     justify-content: center;
@@ -160,4 +161,11 @@
         display: block;
     }
 
+}
+@media only screen and (max-width: 720px){
+    .hide-on-small{
+        display: none;
+        transition: opacity 10s ease-out;
+        opacity: 0;
+    }
 }
