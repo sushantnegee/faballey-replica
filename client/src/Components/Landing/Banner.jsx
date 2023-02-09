@@ -20,7 +20,7 @@ const Banner = () => {
         let box = document.querySelector('.carousel-images');
         let boxWidth = box.clientWidth;
         box.scrollLeft += boxWidth;
-        if(box.scrollLeft >= boxWidth*4){
+        if(box.scrollLeft >= boxWidth*6){
             box.scrollLeft = 0
         }
     }
